@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.navigation img {
+  width: 54px;
+  height: 54px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(25 20 20);
+  padding: 0 14px;
+  padding-bottom: 40px;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.navigation-link:link,
+.navigation-link:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+#download {
+  background-color: rgb(25 20 20);
+  text-align: center;
+  color: #fff;
+}
+
+#download > h1 {
+  margin-bottom: 40px;
+}
+
+#download > h2 {
+  margin-bottom: 40px;
+}
+
+#download button {
+  padding: 12px;
+  border-radius: 18px;
+  margin-bottom: 40px;
+}
+
+#download button:hover {
+  transform: scale(1.02);
+}
+
+#difference-table {
+  background-color: rgb(246, 246, 246);
+  text-align: center;
+}
+
+#difference-table h1 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+#difference-table table {
+  margin: auto;
+  border-collapse: separate;
+}
+
+#difference-table table th {
+  font-weight: 300;
+}
+
+#difference-table table th,
+td {
+  border: 1px solid rgb(170, 170, 170);
+}
+
+.fa-circle-check {
+  color: rgb(30, 215, 96);
+  font-size: 30px;
+}
+
+.fa-circle-xmark {
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+
+#difference-table > section > button {
+  background-color: rgb(25 20 20);
+  color: rgb(246, 246, 246);
+  padding: 14px 42px;
+  border-radius: 18px;
+  margin-bottom: 20px;
+}
+
+#premium {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.price-cards {
+  text-align: left;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 90%;
+  margin: 40px auto;
+  gap: 10px;
+}
+
+.price-cards > article {
+  box-shadow: 0px 0px 5px rgb(170, 170, 170);
+  border-radius: 16px;
+  padding: 20px 20px;
+}
+
+.card-header span {
+  background-color: rgb(13, 114, 234);
+  color: #fff;
+  padding: 4px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+
+.card-header p {
+  font-weight: 300;
+}
+
+.card-header {
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+
+.card-body > ol {
+  list-style-position: inside;
+  padding: 16px 32px;
+}
+
+.card-body > button {
+  background-color: rgb(25 20 20);
+  color: rgb(246, 246, 246);
+  width: 100%;
+  padding: 14px 21px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#students-offer {
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+#students-offer > h3 {
+  margin-bottom: 14px;
+}
+
+#students-offer > button {
+  color: rgb(25 20 20);
+  background-color: #fff;
+  padding: 14px 42px;
+  border-radius: 20px;
+  margin-bottom: 21px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#students-offer > button:hover {
+  transform: scale(1.02);
+}
+
+#students-offer > form {
+  border: 1px solid rgb(170, 170, 170);
+  width: 98%;
+  border-radius: 7px;
+  margin: 0 auto;
+  padding: 21px;
+  text-align: left;
+}
+
+#email {
+  width: 100%;
+  margin-bottom: 4px;
+  padding: 7px;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+#first-name {
+  width: 49%;
+  margin-bottom: 14px;
+  padding: 7px;
+  font-weight: 500;
+}
+
+#last-name {
+  width: 49%;
+  margin-bottom: 14px;
+  padding: 7px;
+  font-weight: 500;
+}
+
+#country,
+#college-university,
+#contact-number {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 14px;
+  font-weight: 500;
+}
+
+#consent-checkbox {
+  cursor: pointer;
+}
+
+#students-offer > form > button {
+  display: block;
+  margin-top: 14px;
+  padding: 2px 4px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 300;
+}
+
+#contact {
+  background-color: rgb(25 20 20);
+  padding: 42px 84px 56px;
+  text-align: center;
+}
+
+#contact > a > i {
+  color: rgb(246, 246, 246);
+  font-size: 21px;
+  margin-right: 10px;
+}
+
+#contact > a:link,
+#contact > a:visited {
+  text-decoration: none;
+  margin-bottom: 21px;
+  display: inline-block;
+}
+
+#contact > a > i:hover {
+  color: rgb(30, 215, 96);
+}
+
+#contact > p {
+  color: rgb(170, 170, 170);
+}
